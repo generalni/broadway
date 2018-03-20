@@ -9,11 +9,6 @@ h1 {
 	color: white;
 }
 
-li {
-	font-size: 18px;
-	color: white;
-}
-
 h2 {
 	font-size: 32px;
 	font-weight: bold;
@@ -28,13 +23,27 @@ p {
 	font-size: 14px;
 }
 
-.design.h3 {
+nav a,
+footer a {
+	font-size: 18px;
 	color: white;
-	background-image: ("./resources/images/the-flatiron-building.png");
+}
+
+.design {
+	color: white;
+	background-image: url("../images/the-flatiron-building.png");
 }
 
 footer {
+	text-align: left;
 	background-color: dimgray;
 	color: white;
+}
+
+footer span {
 	font-size: 11px;
+}
+
+header {
+	background-image: url("../images/the-flatiron-building.png");
 }
